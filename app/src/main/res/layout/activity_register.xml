@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCC6C6"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    tools:context=".register">
+
+    <EditText
+        android:id="@+id/userNameInp"
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="140dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="الاسم ثلاثي"
+        android:inputType="textPersonName"
+        android:textColorHint="#5A5A5A"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/majorInp"
+        android:layout_width="287dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="296dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint=" التخصص "
+        android:inputType="textPersonName"
+        android:textColorHint="#5A5A5A"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/universityNameInp"
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="244dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="اسم الجامعة"
+        android:inputType="textPersonName"
+        android:textColorHint="#5A5A5A"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userNationalIdInp"
+        android:layout_width="287dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="196dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="السجل المدني"
+        android:inputType="number"
+        android:textColorHint="#5A5A5A"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="287dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="344dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="الحالة الأكاديمية"
+        android:inputType="textPersonName"
+        android:textColorHint="#5A5A5A"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="99dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="92dp"
+        android:text="انشاء حساب"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="341dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="560dp"
+        android:layoutDirection="rtl"
+        android:shadowColor="#000000"
+        android:text="أتعهد بأن جميع المعلومات اعلاه صحيحة و أتحمل كامل المسؤولية عنها."
+        android:textColor="#FF0000"
+        android:textColorLink="#0E0D0D"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userEmailInp"
+        android:layout_width="287dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="396dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="البريد الالكتروني"
+        android:inputType="textEmailAddress"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordInp"
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="448dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="كلمة المرور"
+        android:inputType="textPassword"
+        android:textAlignment="textEnd"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/rePasswordInp"
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="500dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="  أعد كتابة كلمة المرور"
+        android:inputType="textPassword"
+        android:textAlignment="textEnd"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="627dp"
+        android:background="#8C8987"
+        android:text="تسجيل"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backToMainBtn"
+        android:layout_width="53dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#CDC9C9"
+        android:layoutDirection="ltr"
+        android:onClick="backToMain"
+        android:tint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

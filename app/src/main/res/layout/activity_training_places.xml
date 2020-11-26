@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CCC6C6"
+        android:scrollbarStyle="insideInset"
+        android:textAlignment="center"
+        tools:context=".trainingPlaces">
+
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-181dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/backToMenuBtn"
+                    android:onClick="backToMenu"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="349dp"
+                    android:layout_marginTop="16dp"
+                    android:background="#CDC9C9"
+                    android:tint="#434242"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="408dp"
+                    android:layout_height="6dp"
+                    android:layout_marginBottom="852dp"
+                    android:background="?android:attr/listDivider"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/backToTrainingTracksBtn"
+                    android:onClick="backToTrainingTracks"
+                    android:layout_width="53dp"
+                    android:layout_height="42dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="9dp"
+                    android:background="#CDC9C9"
+                    android:layoutDirection="ltr"
+                    android:tint="#000000"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="?attr/actionModeCloseDrawable" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="285dp"
+                    android:text="مصرف الراجحي"
+                    android:textColor="#000000"
+                    android:textColorLink="#939393"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="238dp"
+                    android:layout_marginTop="285dp"
+                    android:text="شركة أرمكو السعودية "
+                    android:textColor="#000000"
+                    android:textColorLink="#939393"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="238dp"
+                    android:layout_marginTop="493dp"
+                    android:text="شركة علم "
+                    android:textColor="#000000"
+                    android:textColorLink="#939393"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="493dp"
+                    android:text="الهيئة العامة للغذاء و الدواء "
+                    android:textColor="#000000"
+                    android:textColorLink="#939393"
+                    android:textSize="11.6sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="16dp"
+
+                    android:layout_marginTop="146dp"
+                    android:background="#A6A3A3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view7"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="215dp"
+
+                    android:layout_marginTop="353dp"
+                    android:background="#A6A3A3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view19"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="16dp"
+
+                    android:layout_marginTop="770dp"
+                    android:background="#A6A3A3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view20"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="215dp"
+
+                    android:layout_marginTop="770dp"
+                    android:background="#A6A3A3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view8"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="16dp"
+
+                    android:layout_marginTop="353dp"
+                    android:background="#A6A3A3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view17"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="16dp"
+
+                    android:layout_marginTop="562dp"
+                    android:background="#A6A3A3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view21"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="215dp"
+
+                    android:layout_marginTop="562dp"
+                    android:background="#A6A3A3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view18"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="215dp"
+
+                    android:layout_marginTop="146dp"
+                    android:background="#A6A3A3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="159dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/images" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:layout_marginStart="243dp"
+                    android:layout_marginTop="781dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/mo" />
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="701dp"
+                    android:text="وزارة الصحة "
+                    android:textColor="#000000"
+                    android:textColorLink="#939393"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="243dp"
+                    android:layout_marginTop="904dp"
+                    android:text="المؤسسة العامة للتدريب التقني و المهني "
+                    android:textColor="#000000"
+                    android:textColorLink="#939393"
+                    android:textSize="9.5sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="905dp"
+                    android:text="Johnson Controls"
+                    android:textColor="#000000"
+                    android:textColorLink="#939393"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="238dp"
+                    android:layout_marginTop="700dp"
+                    android:text="كليات سليمان الراجحي"
+                    android:textColor="#000000"
+                    android:textColorLink="#939393"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:layout_marginStart="238dp"
+                    android:layout_marginTop="159dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/aram" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="365dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/bc" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="130dp"
+                    android:layout_height="118dp"
+                    android:layout_marginStart="238dp"
+                    android:layout_marginTop="365dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/elm_logo" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="573dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/min" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:layout_marginStart="238dp"
+                    android:layout_marginTop="573dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/suliman_collages_logo" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="781dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/jo" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="196dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="104dp"
+                    android:layout_marginTop="36dp"
+                    android:text="جهات التدريب"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>

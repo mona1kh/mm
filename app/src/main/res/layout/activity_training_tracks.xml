@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCC6C6"
+    tools:context=".trainingTracks">
+
+    <ImageButton
+        android:id="@+id/backToMenuBtn"
+        android:onClick="backToMenu"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="20dp"
+        android:background="#CDC9C9"
+        android:tint="#434242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="336dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="36dp"
+
+        android:layout_marginTop="140dp"
+        android:background="#A6A3A3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="336dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="395dp"
+        android:background="#A6A3A3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="180dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="84dp"
+        android:text="مسارات التدريب"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/goToTrainingPlaces"
+        android:onClick="goToTrainingPlaces"
+        android:layout_width="131dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="280dp"
+        android:text="جهات التدريب"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="131dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="532dp"
+        android:text="العمل التطوعي"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="168dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="400dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_506429" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="149dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/popular_04b_512" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
